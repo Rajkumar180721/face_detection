@@ -1,0 +1,21 @@
+.imageFlex {
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+
+img {
+    border-radius: 5px;
+    box-shadow: 0px 3px 3px black;
+    user-select: none;
+    cursor: pointer;
+}
+
+.bounding_box{
+    cursor: pointer;
+    position: absolute ;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 2px solid rgb(4, 92, 255);
+}

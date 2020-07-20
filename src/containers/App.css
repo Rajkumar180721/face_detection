@@ -1,10 +1,17 @@
 .App {
   text-align: center;
 }
+.particles {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Tilt  {
+  background-color: rgba(255, 94, 223);
 }
 
 @media (prefers-reduced-motion: no-preference) {
